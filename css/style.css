@@ -1,0 +1,286 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+body {
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', helvetica;
+}
+
+.login-card {
+    padding: 40px;
+    padding-top: 10px;
+    width: 685px;
+    background-color: #F7F7F7;
+    margin: 2.5% auto;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+
+.login-card h1 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 2.3em;
+}
+.login-card h1 b{
+    color: #3079ed;
+}
+
+.login-card input {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.login-card input[type=text], input[type=password], div[type=number] {
+    height: 44px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    /* border-radius: 2px; */
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div[type=number]{
+    padding: 8px 8px;   
+} 
+
+.login-card input[type=text]:hover, input[type=password]:hover {
+    border: 1px solid #b9b9b9;
+    border-top: 1px solid #a0a0a0;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.login,.reset {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    height: 50px;
+    padding: 0 8px;
+    border: 0px;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1); 
+    /*background-color: #4d90fe;*/
+    /* border-radius: 3px; */
+    /* -webkit-user-select: none;
+      user-select: none; */
+}
+
+.login-submit {
+    /* border: 1px solid #3079ed; */
+    /*  border: 0px;
+      color: #fff;
+      text-shadow: 0 1px rgba(0,0,0,0.1); 
+      background-color: #4d90fe;*/
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login:hover {
+    /* border: 1px solid #2f5bb7; */
+    border: 0px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    /*background-color: #357ae8;*/
+    /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+    transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+    opacity: 1;
+}
+
+.login-help {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+additions
+.bg-lt-black{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.shownot{
+    display: none;
+}
+
+#password, #string{
+    padding: 0;
+    width: 100%;
+}
+#string{
+    border: #e38d13 none thin;
+    display: none;
+}
+#string .col-md-3{
+    height: 100px;
+}
+
+#password .col-md-3{
+    height: 100px;
+    border:#e38d13 ridge thick; 
+}
+#string .col-md-2{
+    height: 70px;
+}
+
+#password .col-md-2{
+    height: 70px;
+    /*border:#e38d13 ridge thick;*/ 
+}
+
+
+.clicked{
+    opacity: 0.3;
+    content: 'selected';
+}
+.notset{
+    background: white;
+}
+#red{
+    /*background: red;*/
+    background: url(images/red.png) no-repeat center center; 
+    background-size: cover;
+}
+#blue{
+    /*background: blue;*/  
+    background: url(images/blue.png) no-repeat center center; 
+    background-size: cover;
+}
+#green{
+    /*background: green;*/
+    background: url(images/green.png) no-repeat center center; 
+    background-size: cover;
+}
+
+#violet{
+    /*background: violet;*/  
+    background: url(images/voilet.png) no-repeat center center; 
+    background-size: cover;
+}
+#purple{
+    /*background: purple ;*/ 
+    background: url(images/purple.png) no-repeat center center; 
+    background-size: cover;
+}
+#yellow{
+    /*background: yellow ;*/
+    background: url(images/yellow.png) no-repeat center center; 
+    background-size: cover;
+}
+#lime{
+    /*background: lime;*/  
+    background: url(images/lime.png) no-repeat center center; 
+    background-size: cover;
+}
+#gold{
+    /*background: gold ;*/
+    background: url(images/gold.png) no-repeat center center; 
+    background-size: cover;
+}
+#gray{
+    /*background: gray ;*/ 
+    background: url(images/gray.png) no-repeat center center; 
+    background-size: cover;
+}
+#brown{
+    /*background:brown;*/
+    background: url(images/brown.png) no-repeat center center; 
+    background-size: cover;
+}
+#black{
+    /*background: black ;*/ 
+    background: url(images/black.png) no-repeat center center; 
+    background-size: cover;
+}
+#pink{
+    /*background: pink;*/
+      background: url(images/pink.png) no-repeat center center; 
+    background-size: cover;
+}
+#m1{
+    /*background: red;*/
+    background: url(images/19.png) no-repeat center center; 
+    background-size: cover;
+}
+#m2{
+    /*background: blue;*/  
+    background: url(images/7.png) no-repeat center center; 
+    background-size: cover;
+}
+#m3{
+    /*background: green;*/
+    background: url(images/5.png) no-repeat center center; 
+    background-size: cover;
+}
+
+#m4{
+    /*background: violet;*/  
+    background: url(images/31.png) no-repeat center center; 
+    background-size: cover;
+}
+#m5{
+    /*background: purple ;*/ 
+    background: url(images/32.png) no-repeat center center; 
+    background-size: cover;
+}
+#m6{
+    /*background: yellow ;*/
+    background: url(images/34.png) no-repeat center center; 
+    background-size: cover;
+}
+#m7{
+    /*background: lime;*/  
+    background: url(images/26.png) no-repeat center center; 
+    background-size: cover;
+}
+#m8{
+    /*background: gold ;*/
+    background: url(images/25.png) no-repeat center center; 
+    background-size: cover;
+}
+#m9{
+    /*background: gray ;*/ 
+    background: url(images/24.png) no-repeat center center; 
+    background-size: cover;
+}
+#m10{
+    /*background:brown;*/
+    background: url(images/12.png) no-repeat center center; 
+    background-size: cover;
+}
+#m11{
+    /*background: black ;*/ 
+    background: url(images/11.png) no-repeat center center; 
+    background-size: cover;
+}
+#m12{
+    /*background: pink;*/
+      background: url(images/10.png) no-repeat center center; 
+    background-size: cover;
+}
+p{
+    color: #fff !important;
+}
